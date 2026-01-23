@@ -78,20 +78,16 @@ const Footer = () => {
         setIsSubmitting(true);
 
         try {
-            const response = await fetch('https://api.web3forms.com/submit', {
+            const response = await fetch('http://localhost:3001/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    access_key: '7982e5b4-fbcd-40f0-9c8e-077951dd39e3',
-                    to_email: 'saikiran.techsonance@gmail.com',
-                    from_name: 'SyncServe POS Website',
-                    subject: `New Demo Request from ${formData.name}`,
                     name: formData.name,
                     email: formData.email,
                     phone: formData.phone,
-                    business_type: formData.businessType,
+                    businessType: formData.businessType,
                     message: formData.message || 'No message provided',
                 }),
             });
@@ -136,8 +132,8 @@ const Footer = () => {
                                     </div>
                                     <div>
                                         <p className="text-secondary-500 text-sm">Email</p>
-                                        <a href="mailto:saikiran.techsonance@gmail.com" className="text-white hover:text-primary-400 transition-colors">
-                                            saikiran.techsonance@gmail.com
+                                        <a href="mailto:admin@techsonance.co.in" className="text-white hover:text-primary-400 transition-colors">
+                                            admin@techsonance.co.in
                                         </a>
                                     </div>
                                 </div>
@@ -156,7 +152,8 @@ const Footer = () => {
                                     </div>
                                     <div>
                                         <p className="text-secondary-500 text-sm">Location</p>
-                                        <p className="text-white">India</p>
+                                        <p className="text-white">UG-15, Palladium Plaza, VIP Rd, near shyam mandir, Vesu, Surat, Gujarat 395007
+                                        </p>
                                     </div>
                                 </div>
                             </div>

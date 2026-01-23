@@ -20,7 +20,7 @@ const Hero = () => {
     };
 
     return (
-        <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-gradient-to-br from-secondary-50 via-white to-primary-50">
+        <section className="relative min-h-screen flex items-center pt-[65px] overflow-hidden bg-gradient-to-br from-secondary-50 via-white to-primary-50">
             {/* Background decorative elements */}
             <div className="absolute inset-0 overflow-hidden">
                 <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary-100 rounded-full blur-3xl opacity-50" />
@@ -28,7 +28,7 @@ const Hero = () => {
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-primary-100/20 to-transparent rounded-full blur-3xl" />
             </div>
 
-            <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
+            <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                     {/* Content */}
                     <div className="text-center lg:text-left">
