@@ -72,7 +72,7 @@ app.post('/api/contact', async (req, res) => {
                     </div>
                     <div style="background: #1f2937; padding: 20px; text-align: center;">
                         <p style="color: #9ca3af; font-size: 12px; margin: 0;">
-                            © 2024 SyncServe POS by TechSonance InfoTech LLP
+                            © 2026 SyncServe POS by TechSonance InfoTech LLP
                         </p>
                     </div>
                 </div>
