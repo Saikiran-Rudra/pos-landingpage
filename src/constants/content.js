@@ -113,7 +113,7 @@ export const WHY_CHOOSE_US = {
 export const VIDEO_DEMO = {
     title: 'Watch How the POS Works in Real Time',
     description: 'See billing, order management & reports in action.',
-    youtubeUrl: 'https://www.youtube.com/embed/CKBDdaA2cwE?si=PIiTdoDGACldqJi0',
+    youtubeUrl: 'https://www.youtube.com/embed/2tLQvgvg3hg?si=lOlhBksTKyrMj7G5',
 };
 
 export const PRICING = {
